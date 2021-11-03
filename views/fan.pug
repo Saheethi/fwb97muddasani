@@ -27,3 +27,8 @@ block content
                 div(class="col-sm-2" onclick=`buy(${index})`) #{x.brand}
                 div(class="col-sm-2" onclick=`buy(${index})`) #{x.types}
                 div(class="col-sm-2" onclick=`buy(${index})`) #{x.cost}
+  script.                
+    function buy(product)
+    {
+        alert(`You Purchased Item ${product+1}`)
+    }
